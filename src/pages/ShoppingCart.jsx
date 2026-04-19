@@ -87,20 +87,20 @@ const ShoppingCart = () => {
     {/* Minus */}
     <button
       onClick={() => decrement(x)}
-      className="px-4 py-3 text-2xl text-gray-700 hover:bg-gray-100 transition"
+      className="px-4 py-3 text-2xl text-gray-700 hover:bg-gray-100 transition cursor-pointer"
     >
       -
     </button>
 
     {/* Quantity */}
-    <div className="px-5 py-3 border-x border-gray-300 text-xl font-medium text-gray-900">
+    <div className="px-5 py-3 border-x border-gray-300 text-xl font-medium text-gray-900 cursor-default">
       {x.quantity}
     </div>
 
     {/* Plus */}
     <button
       onClick={() => increment(x)}
-      className="px-4 py-3 text-2xl text-gray-700 hover:bg-gray-100 transition"
+      className="px-4 py-3 text-2xl text-gray-700 hover:bg-gray-100 transition cursor-pointer"
     >
       +
     </button>
@@ -135,7 +135,7 @@ const ShoppingCart = () => {
       <Link to='/shop' type='button' className="rounded-full py-4 w-full max-w-[280px]  flex items-center bg-indigo-100 justify-center transition-all duration-500 hover:bg-indigo-200">
         <span className="px-2 font-semibold text-lg leading-8 text-indigo-600">Continue Shopping</span>
       </Link>
-      <button className="rounded-full w-full max-w-[280px] py-4 text-center justify-center items-center bg-indigo-600 font-semibold text-lg text-white flex transition-all duration-500 hover:bg-indigo-700">Continue
+      <button className="rounded-full w-full max-w-[280px] py-4 text-center justify-center items-center bg-indigo-600 font-semibold text-lg text-white flex transition-all duration-500 hover:bg-indigo-700 cursor-pointer">Continue
         to Payment
       </button>
     </div>
