@@ -77,9 +77,9 @@ const Home = () => {
                 Protect your phone with stylish and durable cases.
                 Choose from shock-proof, slim, and designer covers made to fit perfectly.
               </p>
-              <Link to="/cases" className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
+              <Link to="/cases" className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer"> 
                 Shop Cases
-                <svg
+                <svg 
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
