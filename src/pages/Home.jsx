@@ -4,6 +4,7 @@ import HeroSection from '../home/HeroSection'
 import WhyChooseUs from '../home/WhyChooseUs'
 import FeaturedProduct from '../home/FeaturedProduct'
 import TestimonialSection from '../home/TestimonialSection'
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -17,11 +18,11 @@ const Home = () => {
         <div className="container px-5 py-10 mx-auto text-center">
 
           {/* Section Heading */}
-          <h1 className="mb-6 text-4xl font-semibold tracking-tighter text-gray-900 md:text-5xl lg:text-6xl pb-3">
+          <h1 className="mb-6 text-4xl font-semibold tracking-tighter text-gray-900 md:text-5xl lg:text-6xl pb-3 pt-10">
             Shop by Category
           </h1>
 
-          <p className="mx-auto max-w-2xl text-gray-500 mb-6">
+          <p className="mx-auto max-w-2xl text-gray-500 mb-10">
             Explore our wide range of premium gadgets and accessories designed to
             match your lifestyle and everyday needs.
           </p>
@@ -44,7 +45,7 @@ const Home = () => {
                 Discover the latest smartphones with powerful performance,
                 crystal-clear displays, and long-lasting battery life from top brands.
               </p>
-              <a className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
+              <Link to="/phones" className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
                 Shop Phones
                 <svg
                   fill="none"
@@ -57,7 +58,7 @@ const Home = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             {/* Phone Cases */}
@@ -76,7 +77,7 @@ const Home = () => {
                 Protect your phone with stylish and durable cases.
                 Choose from shock-proof, slim, and designer covers made to fit perfectly.
               </p>
-              <a className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
+              <Link to="/cases" className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
                 Shop Cases
                 <svg
                   fill="none"
@@ -89,7 +90,7 @@ const Home = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             {/* Watches */}
@@ -108,7 +109,7 @@ const Home = () => {
                 Stay connected and track your fitness with modern smart watches
                 featuring health monitoring, notifications, and sleek designs.
               </p>
-              <a className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
+              <Link to="/watches" className="text-indigo-500 inline-flex items-center mt-3 cursor-pointer">
                 Shop Watches
                 <svg
                   fill="none"
@@ -121,7 +122,7 @@ const Home = () => {
                 >
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
-              </a>
+              </Link>
             </div>
 
           </div>

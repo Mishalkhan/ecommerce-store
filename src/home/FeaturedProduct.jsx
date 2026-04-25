@@ -11,7 +11,7 @@ const FeaturedProduct = () => {
             <div className="container px-5 py-10 mx-auto text-center">
 
                 {/* Section Heading */}
-                <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 md:text-5xl lg:text-6xl pb-5">
+                <h1 className="text-4xl font-semibold tracking-tighter text-gray-900 md:text-5xl lg:text-6xl py-10">
                     Featured Products
                 </h1>
                 {/* Product 1 Phones */}
